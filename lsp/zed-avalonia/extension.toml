@@ -1,7 +1,7 @@
 id = "avalonia-axaml"
 name = "Avalonia AXAML"
 description = "AXAML syntax support and AXSG language server integration"
-version = "1.0.0"
+version = "1.0.1"
 schema_version = 1
 authors = ["zed-avalonia contributors"]
 repository = "https://github.com/rainbowechoes/zed-avalonia"
