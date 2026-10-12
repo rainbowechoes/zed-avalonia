@@ -1,0 +1,19 @@
+id = "avalonia-axaml"
+name = "Avalonia AXAML"
+description = "AXAML syntax support and AXSG language server integration"
+version = "1.0.0"
+schema_version = 1
+authors = ["zed-avalonia contributors"]
+repository = "https://github.com/rainbowechoes/zed-avalonia"
+
+[grammars.xml]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-xml"
+commit = "5000ae8f22d11fbe93939b05c1e37cf21117162d"
+path = "xml"
+
+[language_servers.axsg-lsp]
+name = "AXSG AXAML Language Server"
+languages = ["AXAML"]
+
+[language_servers.axsg-lsp.language_ids]
+AXAML = "axaml"

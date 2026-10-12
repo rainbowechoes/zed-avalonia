@@ -1,0 +1,14 @@
+[
+  { "token_type": "xamlDelimiter", "style": ["punctuation.delimiter", "punctuation"] },
+  { "token_type": "xamlName", "style": ["tag", "type"] },
+  { "token_type": "xamlAttribute", "style": ["property", "attribute"] },
+  { "token_type": "xamlAttributeValue", "style": ["string"] },
+  { "token_type": "xamlAttributeQuotes", "style": ["punctuation.delimiter", "punctuation"] },
+  { "token_type": "xamlComment", "style": ["comment"] },
+  { "token_type": "xamlKeyword", "style": ["keyword"] },
+  { "token_type": "xamlMarkupExtensionClass", "style": ["type", "constructor"] },
+  { "token_type": "xamlMarkupExtensionParameterName", "style": ["property"] },
+  { "token_type": "xamlMarkupExtensionParameterValue", "style": ["string"] },
+  { "token_type": "xamlNamespacePrefix", "style": ["type", "tag"] },
+  { "token_type": "xamlText", "style": ["text.literal", "string"] }
+]

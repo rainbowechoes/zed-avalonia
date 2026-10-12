@@ -1,0 +1,5 @@
+name = "AXAML"
+grammar = "xml"
+path_suffixes = ["axaml"]
+block_comment = ["<!-- ", " -->"]
+brackets = [{ start = "<", end = ">", close = true, newline = true }]
